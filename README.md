@@ -1,45 +1,35 @@
 # science-blog-por
 
+**Blog de Psicologia e Neurociencias (Portugues)**
 
-## How to Cite
+> Site publicado em: **https://juanmoisesd.github.io/science-blog-por/**
 
-If you use this repository in your research, please cite:
+## Como Citar
 
-> de la Serna, J. M. (2026). *Science Blog Por*. Universidad Internacional de La Rioja (UNIR).
-> https://github.com/juanmoisesd/science-blog-por 
+Se utilizar este repositorio na sua investigacao, por favor cite:
 
-See `CITATION.cff` for formatted references.
+de la Serna, J. M. (2026). *Science Blog Por*. Universidad Internacional de La Rioja (UNIR). https://github.com/juanmoisesd/science-blog-por
 
-## Overview
-This repository contains data and resources related to **science blog por**. It is part of an open science initiative to share research findings and datasets with the global scientific community.
+Consulte o ficheiro `CITATION.cff` para referencias formatadas.
 
-## Research Context
-The project addresses key questions in the field of neuroscience and social sciences, focusing on providing accessible data for further analysis and validation.
+## Descricao
 
-## Repository Structure
-- `data/`: Contains the datasets used in this research.
-- `src/`: Source code for data processing and analysis.
-- `results/`: Output files, figures, and metrics.
+Este repositorio contem um blog cientifico em lingua portuguesa nas areas de **Psicologia** e **Neurociencias**.
+E parte de uma iniciativa de ciencia aberta para partilhar conhecimento com a comunidade de lingua portuguesa.
 
-## Usage
-To use the resources in this repository, clone the project and ensure you have the necessary dependencies installed. Refer to the specific documentation in each folder for more details.
+## Estrutura do Repositorio
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+- `_posts/`: Artigos do blog em Markdown
+- `_config.yml`: Configuracao do Jekyll
+- `.github/workflows/`: Workflow de publicacao automatica no GitHub Pages
+- `sobre.md`: Pagina "Sobre" do blog
 
-## Overview
-This repository contains data and resources related to **science blog por**. It is part of an open science initiative to share research findings and datasets with the global scientific community.
+## Publicacao
 
-## Research Context
-The project addresses key questions in the field of neuroscience and social sciences, focusing on providing accessible data for further analysis and validation.
+O blog e publicado automaticamente no GitHub Pages via GitHub Actions sempre que ha um novo commit no branch `main`.
 
-## Repository Structure
-- `data/`: Contains the datasets used in this research.
-- `src/`: Source code for data processing and analysis.
-- `results/`: Output files, figures, and metrics.
+URL: https://juanmoisesd.github.io/science-blog-por/
 
-## Usage
-To use the resources in this repository, clone the project and ensure you have the necessary dependencies installed. Refer to the specific documentation in each folder for more details.
+## Licenca
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+Este projeto esta licenciado sob a licenca MIT - ver o ficheiro `LICENSE` para detalhes.
