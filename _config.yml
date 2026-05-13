@@ -1,0 +1,31 @@
+title: "Blog de Psicologia e Neurociências"
+description: "Artigos científicos sobre psicologia, neurociências e ciência aberta em português"
+lang: pt-BR
+baseurl: ""
+url: "https://juanmoisesd.github.io"
+
+theme: minima
+
+author:
+  name: "Juan Moisés de la Serna"
+
+show_excerpts: true
+
+minima:
+  skin: classic
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+permalink: /:year/:month/:day/:title/
+
+paginate: 5
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Juan Moisés de la Serna"
